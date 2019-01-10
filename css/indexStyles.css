@@ -1,0 +1,98 @@
+
+.bg {
+    /* The image used */
+    background-image: url("../Index/cover1.jpg");
+
+    /* Full height */
+    height: 86.5vh;
+
+    /* Center and scale the image nicely */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mobile-bg {
+  background-image: url("../Index/mobileTitle2.png");
+
+  height: 75vh;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.down-button {
+  color: WhiteSmoke;
+  position: absolute;
+  bottom: 6%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+.down-button2 {
+  bottom: 7.2%;
+}
+
+.frame {
+  cursor: pointer;
+}
+.divider {
+  width: 100%;
+  border-top: 1.2px;
+  border-style: solid;
+  margin: 2.5% 0;
+}
+
+@media all and (min-width: 0px) and (max-width: 768px) {
+  .down-button {
+    display: none;
+  }
+  .down-button2 {
+    display: none;
+  }
+  .divider {
+    margin: 6% 0;
+  }
+}
+
+.welcome {
+  top: 2%;
+  left: 26%;
+  position: absolute;
+  color: white;
+  text-align: center;
+  transform: translate(0%, 50%);
+  vertical-align: middle;
+  font-family:cinzel,serif;
+}
+
+.fa-layers:hover{
+  cursor: pointer;
+}
+
+.about {
+  background-color: #329555;
+  text-align: center;
+}
+
+.services {
+  text-align: center;
+}
+
+
+#Email {
+  text-align: center;
+  color: white;
+  font-family: georgia, palatino, serif;
+  background-color: #329555 ;
+  /*#239B56;
+   Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

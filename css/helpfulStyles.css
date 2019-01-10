@@ -1,0 +1,43 @@
+.bg {
+  height: 60vh;
+  background-image: url("../Helpful/prayer.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.expand {
+  width: 53%;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+.card {
+  text-align: center;
+}
+.rotate {
+    -moz-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+.rotate-down {
+  -ms-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 786px) {
+  .expand {
+    width: 80%;
+  }
+  .faq .container {
+    padding-right: 0px;
+  }
+}
